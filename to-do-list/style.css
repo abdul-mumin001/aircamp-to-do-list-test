@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    padding: 3%;
+    background-color: green;
+}
+.additem{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.inputmain{
+    display: flex;
+    gap: 40px;
+
+}
+.inputItem{
+size: 50
+}
+
+.Task{
+    font-size: 40px;
+    font-weight: bold;
+}
+.allbox{
+    border: 1px solid;
+    display: flex;
+    
+}
+.box1{
+    display: flex;
+    align-content: flex-end;
+}
+.flexend{
+    display: flex;
+    /* flex-direction: row; */
+    align-content: flex-end;
+}
