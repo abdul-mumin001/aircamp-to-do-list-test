@@ -51,3 +51,67 @@
     font-weight: bold;
     margin-left: 8%;
 }
+
+.allbox{
+    margin-left: 8%;
+
+}
+
+.box1{
+   
+    width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 1300px;
+  border: 2px solid#ccc;
+  /* border-radius: px; */
+  font-size: 30px;
+  box-sizing: border-box;
+}
+
+.btnend{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.btnend button{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+.edit button{ 
+    background-color: green;
+}
+.delete button{
+    background-color:brown;
+}
+.box2{
+   
+    width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 1300px;
+  border: 2px solid#ccc;
+  border-top: none;
+  border-radius: 2px;
+  font-size: 30px;
+  box-sizing: border-box;
+}
+.box3{
+   
+    width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 1300px;
+  border: 2px solid#ccc;
+  border-top: none;
+  border-radius: 2px;
+  font-size: 30px;
+  box-sizing: border-box;
+}
