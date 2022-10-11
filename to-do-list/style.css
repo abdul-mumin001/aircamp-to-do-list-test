@@ -5,36 +5,49 @@
 .head{
     padding: 3%;
     background-color: green;
+    text-align: center;
+    font-size: 40px;
 }
 .additem{
-    font-size: 40px;
+    margin-top: 30px;
+    font-size: 50px;
     font-weight: bold;
+    margin-left: 8%;
 }
 
 .inputmain{
     display: flex;
-    gap: 40px;
-
+    gap: 650px;
+   
+    margin-left: 8%;
 }
-.inputItem{
-size: 50
+.inp input{
+   
+    width: 200%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid#ccc;
+  border-radius: 2px;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+.submit button{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 20px;
 }
 
 .Task{
-    font-size: 40px;
+    margin-top: 30px;
+    font-size: 50px;
     font-weight: bold;
-}
-.allbox{
-    border: 1px solid;
-    display: flex;
-    
-}
-.box1{
-    display: flex;
-    align-content: flex-end;
-}
-.flexend{
-    display: flex;
-    /* flex-direction: row; */
-    align-content: flex-end;
+    margin-left: 8%;
 }
